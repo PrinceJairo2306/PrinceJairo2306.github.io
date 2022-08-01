@@ -2,37 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DevPrince</title>
-    <link rel="stylesheet" href="assets/index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>My Portfolio</title>
 </head>
-<body>
-    <header class="header">
-        <h2><span>DevPrince</span></h2>
-        <nav class="nav">
-            <ul class="nav-list" >
-                <li class="nav-item home"><a href="#">Home</a></li>
-                <li class="nav-item services"><a href="#">About</a></li>
-                <li class="nav-item about"><a href="#">Skills</a></li>
-                <li class="nav-item about"><a href="#">Projects</a></li>
-                <li class="nav-item contact"><a href="#">Contact</a></li>
-            </ul>
+<body class="h-screen font-roboto bg-slate-900 text-white">
+
+    <!-- nav bar -->
+        <nav class="relative container  mx-auto ">
+            <!-- flex container -->
+            <div class="flex justify-between">
+                <div class="w-32 pt-3">
+                    <img src="/my-logo.png" alt="">
+                </div>
+                <div class="py-6 text-xl text-cyan-300 font-roboto space-x-12 font-medium hidden md:flex ">
+                    <a href="#" class="hover:underline underline-offset-8 hover:text-green-300 ">Home</a>
+                    <a href="#" class="hover:underline underline-offset-8 hover:text-green-300 ">About</a>
+                    <a href="#" class="hover:underline underline-offset-8 hover:text-green-300 ">Interests</a>
+                    <a href="#" class="hover:underline underline-offset-8 hover:text-green-300 ">Skills</a>
+                    <a href="#" class="hover:underline underline-offset-8 hover:text-green-300 ">Projects</a>
+                    <a href="#" class="hover:underline underline-offset-8 hover:text-green-300 ">Contact</a>
+                 </div>
+            </div>
         </nav>
-    </header>
-
-    <main>
-        <div class="container">
-            <img class="profile-img" src="assets/img/profile-img-edited.png" alt="">
-            <h1>Hi Im Prince Jairo</h1>
-            <h3>Web Developer</h3>
-        </div>
-
-
+    <!-- body -->
+    <div class="container justify-center mx-auto flex flex-col-reverse 
+    items-center start md:pt-20 lg:pt-28 md:items-start md:flex-row lg:space-x-32 ">
+        <!-- introduction section -->
+        <div class="text-2xl text-center md:pt-10 md:text-4xl  md:text-left">
+            <p class="mx-auto  text-center p-2 text-xl bg-teal-500  rounded-tl-3xl rounded-bl-3xl 
+             rounded-br-3xl  w-1/2 hover:rounded-tr-3xl 
+             hover:rounded-bl-none duration-300 md:mx-0">Hello I'm</p>
+            <p class=" pt-4 font-semibold md:font-bold md:text-4xl">Prince Jairo Fortuna</p>
+            <p class="font-thin underline underline-offset-8 decoration-white text-teal-500 text-xl space-y-0 md:space-y-0">Web Developer</p>
+            <div class=" mspace-y-1">
+                <p class="max-w-sm text-xl font-thin text-center mt-8 md:mt-7 md:text-left">I am  a passionate and highly motivated developer who always aims to be productive.
+                    I design and develop services for costumers like websites and stuffs.
+                </p>
+                <p></p>
+            </div>
             
-
-    </main>
+        </div>
+            <!-- profile image section -->
+        <div class="mb-5 ">
+            <div class="border-8 border-black rounded-full ">
+                <img class="border-8 border-slate-900 rounded-full max-w-xs hover:border-teal-500"src="/profile-img-edited.png" alt="">
+            </div>
+        </div>
+    </div>
+    
 </body>
 </html>

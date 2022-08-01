@@ -1,0 +1,11 @@
+@media (min-width: 400px) {
+}
+it means from 400 px and above
+
+@media (min-width: 400px)and (00.) {
+the code in between will work
+}
+
+display: flx
+
+fl

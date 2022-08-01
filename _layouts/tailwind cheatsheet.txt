@@ -1,0 +1,77 @@
+logomakr.com/app/7Xkoit
+
+Tailwind
+*install node
+*npm init -y
+npm install -D tailwindcss
+npx tailwindcss init
+'./*.html'
+create a file input.css
+add 3 lines from the tailwind docs
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+add scripts in the packaga.json
+"scripts": {
+    "build": "tailwindcss -i ./input.css - o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css - o ./css/main.css --watch"
+  },
+npm run build
+
+
+37
+
+
+them:{
+	screens:{
+		sm:'480px',
+		md:'768px',
+		lg:'975px',
+		xl:'1440px'
+		},
+	extend:{
+		colors:{
+		    brightRed:'hsl(12m,88%,59%)'
+			}
+}
+	
+}
+
+text-3xl
+
+nav.relative.container
+make it relative coz the hamburger menu will be absolute later
+	m-margin
+		mt
+		mb
+		mr
+		ml
+		mx
+		my
+
+.flex.items-center.justify-between   --this is for the container
+//menu items
+.flex.space-x-6
+hidden md:flex
+
+hover:text-darkGray 
+
+//button
+a.p-3.px-6.pt-2.text-white.bg-brightRed.rounded-full.baseline.hover:bg-color.hidden.md:block
+
+//content responsive flex
+.container.flex.flex-col-reverse.md:flex-row.items-center.px-6.mx-auto.mt-10.space-y-0.
+md:space-y-0 --reverse if you want the image to top
+
+md:w-1/2
+//heading
+h1.max-w-md.text-4xl.font-bold.text-center.md:text-5xl.md:text-left
+
+//paragrahp
+p.max-w-sm.text-center.text-darkGray md:text-left
+
+to center all elements inside a div
+flex justify center mx-auto
+
+max-w-sm to limit from overflowing
