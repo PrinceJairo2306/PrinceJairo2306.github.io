@@ -902,24 +902,12 @@ video {
   padding-top: 2.5rem;
 }
 
-.pt-8{
-  padding-top: 2rem;
-}
-
 .pb-3{
   padding-bottom: 0.75rem;
 }
 
 .pt-3{
   padding-top: 0.75rem;
-}
-
-.pt-0{
-  padding-top: 0px;
-}
-
-.pt-12{
-  padding-top: 3rem;
 }
 
 .text-left{
@@ -1291,12 +1279,12 @@ video {
     padding-bottom: 5rem;
   }
 
-  .md\:pb-10{
-    padding-bottom: 2.5rem;
-  }
-
   .md\:pt-0{
     padding-top: 0px;
+  }
+
+  .md\:pb-10{
+    padding-bottom: 2.5rem;
   }
 
   .md\:text-left{
